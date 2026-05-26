@@ -1,0 +1,32 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and runtime output
+*.log
+logs/
+tmp/
+temp/
+
+# Dependency folders if tooling is added later
+vendor/
+node_modules/
+
+# Build and cache output
+dist/
+build/
+.cache/
+
+# IDE/editor metadata
+.idea/
+.vscode/
+.git-nested-backup/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
