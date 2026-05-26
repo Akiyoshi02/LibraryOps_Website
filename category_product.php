@@ -28,7 +28,7 @@
                     <div class="book-item">
                         <div class="book-card">
                             <div class="book-image">
-                                <img src="Images/Books/<?php echo $row['product_image']; ?>" alt="<?php echo $row['product_name']; ?>" class="book-img">
+                                <img src="images/Books/<?php echo $row['product_image']; ?>" alt="<?php echo $row['product_name']; ?>" class="book-img">
                             </div>
                             <div class="book-details">
                                 <a href="single_product.php?product_id=<?php echo $row['product_id']; ?>" class="book-title"><?php echo $row['product_name']; ?></a>

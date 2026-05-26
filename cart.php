@@ -122,7 +122,7 @@
                 <tr>
                     <td>
                         <div class="cart-item">
-                            <img src="Images/Books/<?php echo $value['product_image']; ?>" width="90px" height="120px">
+                            <img src="images/Books/<?php echo $value['product_image']; ?>" width="90px" height="120px">
                             <div class="cart-item-details">
                                 <p><?php echo $value['product_name']; ?></p>
                                 <small>Rs. <?php echo $value['product_price']; ?></small>

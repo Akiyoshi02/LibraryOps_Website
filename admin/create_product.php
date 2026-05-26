@@ -25,7 +25,7 @@ if(isset($_POST['create_product'])){
     $product_image = $_FILES['image'] . ".jpg";
 
     //Upload image
-    move_uploaded_file($image, "../Images/Books/". $product_image);
+    move_uploaded_file($image, "../images/Books/". $product_image);
 
     $stmt = $conn -> prepare("INSERT INTO products (product_name, product_description, product_price, product_special_offer, product_image, product_category, product_author)
     VALUES (? , ? , ? , ? , ? , ? , ?)");

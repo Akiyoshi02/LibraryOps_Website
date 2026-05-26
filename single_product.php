@@ -58,7 +58,7 @@ if(isset($_GET['product_id'])){
                     </div>
 
                     <div class="product-image">
-                        <img src="Images/Books/<?php echo $row['product_image'];?>" alt="<?php echo $row['product_name'];?>" class="image">
+                        <img src="images/Books/<?php echo $row['product_image'];?>" alt="<?php echo $row['product_name'];?>" class="image">
                     </div>
 
                 </div>

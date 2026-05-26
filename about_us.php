@@ -18,7 +18,7 @@
                 So I decided to build a website – a place where I could see my friends' bookshelves and learn about what they thought of all their books. We started in my living room, motivated by the belief that there was a better way to discover and discuss good books, and that we could build it.<br><br>
                 LibraryOps is that site. It is a place where you can see what your friends are reading and vice versa. You can create "bookshelves" to organize what you've read (or want to read). You can comment on each other's reviews. You can find your next favorite book. And on this journey with your friends you can explore new territory, gather information, and expand your mind. <br><br>
                 Knowledge is power, and power is best shared among readers. <br><br>
-                <span><img src="Images/signature.png" width="105px" height="60px"></span><br>
+                <span><img src="images/signature.png" width="105px" height="60px"></span><br>
                 Akiyoshi Yapa<br>
                 Founder</p><br>
         </div>

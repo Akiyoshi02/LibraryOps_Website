@@ -17,7 +17,7 @@ The application is built with **PHP**, **MySQL**, **HTML**, **CSS**, and **JavaS
 - Shopping cart and checkout workflow with session-backed cart quantities and order placement
 - Admin dashboard with summary counts for users, products, and orders
 - Admin CRUD workflows for products, product images, orders, and users
-- MySQL database schema and seed data included in `Database/php_project.sql`
+- MySQL database schema and seed data included in `DB Related/php_project.sql`
 - Responsive custom CSS styling with Font Awesome icons and local image assets
 
 ---
@@ -57,14 +57,14 @@ cd LibraryOps_Website
 Create a MySQL database named `php_project`, then import the provided SQL dump:
 
 ```bash
-mysql -u root -p php_project < Database/php_project.sql
+mysql -u root -p php_project < "DB Related/php_project.sql"
 ```
 
-You can also import `Database/php_project.sql` through phpMyAdmin.
+You can also import `DB Related/php_project.sql` through phpMyAdmin.
 
 ### 3. Configure the database connection
 
-Update the credentials in `Site/server/connection.php` if your local MySQL setup does not use the default XAMPP-style values:
+Update the credentials in `server/connection.php` if your local MySQL setup does not use the default XAMPP-style values:
 
 ```php
 mysqli_connect("localhost", "root", "", "php_project");
@@ -85,7 +85,7 @@ C:\xampp\htdocs\LibraryOps_Website
 Start Apache and MySQL, then open:
 
 ```text
-http://localhost/LibraryOps_Website/Site/site.php
+http://localhost/LibraryOps_Website/site.php
 ```
 
 ### 5. Admin panel
@@ -93,7 +93,7 @@ http://localhost/LibraryOps_Website/Site/site.php
 Open the admin login page:
 
 ```text
-http://localhost/LibraryOps_Website/Site/admin/login.php
+http://localhost/LibraryOps_Website/admin/login.php
 ```
 
 The SQL dump includes an admin account record. If you do not know the password, reset it through the database or create a new admin record with a PHP `password_hash()` value.
@@ -103,20 +103,19 @@ The SQL dump includes an admin account record. If you do not know the password, 
 ## 📂 Project Structure
 
 ```text
-├── Database/
+├── DB Related/
 │   └── php_project.sql          # MySQL schema and seed data
-└── Site/
-    ├── admin/                   # Admin dashboard and management pages
-    ├── Images/                  # Site images and book covers
-    ├── layouts/                 # Shared storefront header/footer
-    ├── server/                  # Database connection and server handlers
-    ├── account.php              # Customer account and order history
-    ├── cart.php                 # Session-backed cart
-    ├── checkout.php             # Checkout form
-    ├── shop_now.php             # Catalog and filtering
-    ├── single_product.php       # Book detail page
-    ├── site.php                 # Storefront home page
-    └── style.css                # Main storefront styling
+├── admin/                       # Admin dashboard and management pages
+├── images/                      # Site images and book covers
+├── layouts/                     # Shared storefront header/footer
+├── server/                      # Database connection and server handlers
+├── account.php                  # Customer account and order history
+├── cart.php                     # Session-backed cart
+├── checkout.php                 # Checkout form
+├── shop_now.php                 # Catalog and filtering
+├── single_product.php           # Book detail page
+├── site.php                     # Storefront home page
+└── style.css                    # Main storefront styling
 ```
 
 ---

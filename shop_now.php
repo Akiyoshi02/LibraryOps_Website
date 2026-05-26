@@ -96,7 +96,7 @@ if(isset($_POST['search'])){
                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                         <div class="category-card">
                             <div class="category-image">
-                                <img src="Images/Books/<?php echo $row['product_image']; ?>" alt="<?php echo $row['product_category']; ?>" class="img-fluid">
+                                <img src="images/Books/<?php echo $row['product_image']; ?>" alt="<?php echo $row['product_category']; ?>" class="img-fluid">
                             </div>
                             <div class="category-details">
                                 <a href="category_product.php?product_category=<?php echo $row['product_category']; ?>" class="category-title"><?php echo $row['product_category']; ?></a>
@@ -158,7 +158,7 @@ if(isset($_POST['search'])){
                     <div class="book-item">
                         <div class="book-card">
                             <div class="book-image">
-                                <img src="Images/Books/<?php echo $row['product_image']; ?>" alt="<?php echo $row['product_name']; ?>" class="book-img">
+                                <img src="images/Books/<?php echo $row['product_image']; ?>" alt="<?php echo $row['product_name']; ?>" class="book-img">
                             </div>
                             <div class="book-details">
                                 <a href="single_product.php?product_id=<?php echo $row['product_id']; ?>" class="book-title"><?php echo $row['product_name']; ?></a>

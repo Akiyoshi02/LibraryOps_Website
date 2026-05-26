@@ -14,7 +14,7 @@ if(isset($_POST['update_image'])){
     $product_image = $_FILES['image'] . ".jpg";
 
     //Upload image
-    move_uploaded_file($image, "../Images/Books/". $product_image);
+    move_uploaded_file($image, "../images/Books/". $product_image);
 
     $stmt = $conn -> prepare("UPDATE products SET product_image = ? WHERE product_id = ?");
 

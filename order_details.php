@@ -70,7 +70,7 @@ function calculateTotalOrderPrice($order_details) {
                                
                     <td>
                         <div class="cart-item">
-                            <img src="Images/Books/<?php echo $row['product_image']; ?>" width="90px" height="120px">
+                            <img src="images/Books/<?php echo $row['product_image']; ?>" width="90px" height="120px">
                             <div class="cart-item-details">
                                 <p><?php echo $row['product_name']; ?></p>
                             </div>

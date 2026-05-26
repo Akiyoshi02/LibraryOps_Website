@@ -109,7 +109,7 @@ if(!isset($_SESSION['admin_logged_in'])){
 
                 <tr>
                 <td><?php echo $product['product_id']; ?></td>
-                            <td><img src="<?php echo "../Images/Books/" . $product['product_image']; ?>" style="width: 80px; height: 100px;"></td>
+                            <td><img src="<?php echo "../images/Books/" . $product['product_image']; ?>" style="width: 80px; height: 100px;"></td>
                             <td><?php echo $product['product_name']; ?></td>
                             <td><?php echo "Rs. " . $product['product_price']; ?></td>
                             <td><?php echo "Rs. " . $product['product_special_offer']; ?></td>

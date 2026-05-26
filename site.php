@@ -2,7 +2,7 @@
 
 <main>
     <section class="banner">
-        <img src="Images\bookicon.png" width="200" height="100">
+        <img src="images/bookicon.png" width="200" height="100">
         <h1><font color="#000000">Journey Through the Written Word</font></h1>
         <a href="shop_now.php"><button type="button" class="overall-btn">Shop Now</button></a>
     </section>
@@ -15,7 +15,7 @@
         <div class="space"></div>
         <div class="down">
             <h1>Quotes</h1>
-            <img src="Images/purkey.jpg" width="80" height="80">
+            <img src="images/purkey.jpg" width="80" height="80">
             <p>“You've gotta dance like there's nobody watching, Love like you'll never be hurt, Sing like there's nobody listening, And live like it's heaven on earth.” </p>
             <p1>― William W. Purkey</p1>
         </div>
@@ -34,7 +34,7 @@
                     <div class="book-item">
                         <div class="book-card">
                             <div class="book-image">
-                                <img src="Images/Books/<?php echo $row['product_image']; ?>" alt="<?php echo $row['product_name']; ?>" class="book-img">
+                                <img src="images/Books/<?php echo $row['product_image']; ?>" alt="<?php echo $row['product_name']; ?>" class="book-img">
                             </div>
                             <div class="book-details">
                                 <a href="single_product.php?product_id=<?php echo $row['product_id']; ?>" class="book-title"><?php echo $row['product_name']; ?></a>
